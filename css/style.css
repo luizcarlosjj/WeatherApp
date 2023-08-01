@@ -8,7 +8,8 @@
 }
 
 body {
-    background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%) ;
+    background-image: url('/src/fundo2.jpg');
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,4 +40,62 @@ body {
     border: none;
     flex: 1;
     border-radius: 4px;
+}
+
+.form button {
+    padding: .8rem;
+    min-width: 50px;
+    border-style: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    cursor: pointer;
+}
+
+/* CLIMA */
+#weather-data {
+    border-top: 2px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem ;
+    text-align: center;
+}
+
+#weather-data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i {
+    font-size: 1rem;
+}
+
+#weather-data span {
+    margin: 0.6rem;
+    font-weight: bold;
+}
+
+#description {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+#details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #umidity {
+    border-right: 2px solid #fff;
+    margin: .6rem;
+    padding: .6rem;
 }
